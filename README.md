@@ -1,51 +1,87 @@
-Welcome to the Games Repository! This repository contains two classic and fun games:
+# Games Web App – Snake & Hangman
 
-1. Snake Game
+A small web project containing two classic browser games – **Snake** and **Hangman** – with simple login/signup and a basic homepage.[page:1]
 
-2. Hangman Game
+---
 
-**Snake Game**
+## Overview
 
-Description:
+This repository includes:
 
-In the Snake Game, the player controls a snake that moves around the screen. The objective is to eat blocks that appear randomly on the screen. Each time the snake eats a block, it grows longer. The game ends if the snake collides with itself or the screen boundaries.
+- Snake Game (grid‑based snake that grows as it eats food).[page:1]  
+- Hangman Game (word guessing with category‑based hints).[page:1]  
+- Simple Login and Signup pages plus a static homepage.[page:1]
 
-Features:
+The goal is to practice core **HTML, CSS, JavaScript and a bit of PHP** for basic web game logic and UI.[page:2]
 
-Snake grows longer as it eats blocks.
 
-Simple and intuitive controls.
+## Snake Game
 
-Game-over detection when the snake collides with itself or the screen edges.
+**Description**
 
-How to Play:
+In the Snake game, the player controls a snake moving on the screen and tries to eat randomly appearing blocks.[page:1]  
+Each time the snake eats a block, it grows longer and the game ends if it hits the wall or its own body.[page:1]
 
-Use arrow keys (Up, Down, Left, Right) to move the snake.
+**Features**
 
-Eat the blocks to grow your snake.
+- Snake grows as it eats food.  
+- Simple keyboard controls (arrow keys).  
+- Game over when the snake collides with the wall or itself.[page:1]
 
-Avoid crashing into the walls or the snake’s own body.
+**How to Play**
 
-**Hangman Game**
+- Use the arrow keys (Up, Down, Left, Right) to move the snake.  
+- Eat the blocks to increase your score and length.  
+- Avoid hitting the boundaries or your own tail.[page:1]
 
-Description:
+---
 
-The Hangman Game is a word-guessing game where the player has to guess a word letter by letter. The game provides a hint, such as whether the word is a fruit, vegetable, or another category. The player has a limited number of incorrect guesses before the game ends.
+## Hangman Game
 
-Features:
+**Description**
 
-Hints provided to make guessing easier.
+Hangman is a word‑guessing game where the player guesses a hidden word one letter at a time.[page:1]  
+The game provides a hint like category (fruit, vegetable, etc.) and allows only a limited number of wrong guesses.[page:1]
 
-Tracks the number of wrong guesses.
+**Features**
 
-Reveals the word if the player fails to guess correctly.
+- Category‑based hints for the secret word.  
+- Counts wrong guesses and ends the game when the limit is reached.  
+- Reveals the correct word if the player fails to guess.[page:1]
 
-How to Play:
+**How to Play**
 
-The game will provide a hint (e.g., "It’s a fruit").
+- Read the hint (for example, “It’s a fruit”).  
+- Enter letters one by one to guess the word.  
+- Try to guess the full word before you run out of allowed wrong guesses.[page:1]
 
-Guess one letter at a time.
+---
 
-You have a limited number of incorrect guesses.
+## Project Structure
 
-Try to guess the entire word before your guesses run out.
+```text
+AP-Project/
+├── Login/        # Login page files
+├── Signup/       # Signup/registration page files
+├── homepage/     # Landing / home UI
+├── snake/        # Snake game HTML, CSS, JS
+├── hangman/      # Hangman game HTML, CSS, JS
+└── db/           # Any PHP/db related files if used
+```
+
+## How to Run
+
+Clone or download this repository.
+
+Open the relevant HTML files (e.g. homepage/index.html, snake/index.html, hangman/index.html) directly in your browser, or use a simple local server / Live Server in VS Code.
+
+Interact with login/signup (if configured) and then navigate to the game pages.
+
+If you use PHP or database features from the db folder, run the project on a local server environment such as XAMPP/WAMP and place the project inside the server’s htdocs/www directory.
+  
+
+## Future Improvements
+
+- Connect login/signup to a real database for user accounts.
+- Add scoreboards/high scores for both games.
+- Improve mobile responsiveness and game UI styling.
