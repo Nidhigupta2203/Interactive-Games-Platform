@@ -1,6 +1,7 @@
-# Games Web App – Snake & Hangman
+# Interactive Games Platform
 
-A small web project containing two classic browser games – **Snake** and **Hangman** – with simple login/signup and a basic homepage.
+A web-based platform featuring two classic browser games — **Snake** and **Hangman** — along with simple login/signup functionality and a basic homepage.  
+This project focuses on practicing core **HTML, CSS, JavaScript**, with basic **PHP** integration for UI flow and authentication concepts.
 
 ---
 
@@ -17,18 +18,18 @@ The goal is to practice core **HTML, CSS, JavaScript and a bit of PHP** for basi
 
 ## Snake Game
 
-**Description**
+### Description
 
 In the Snake game, the player controls a snake moving on the screen and tries to eat randomly appearing blocks. 
 Each time the snake eats a block, it grows longer and the game ends if it hits the wall or its own body.
 
-**Features**
+### Features
 
 - Snake grows as it eats food.  
 - Simple keyboard controls (arrow keys).  
 - Game over when the snake collides with the wall or itself.
 
-**How to Play**
+### How to Play
 
 - Use the arrow keys (Up, Down, Left, Right) to move the snake.  
 - Eat the blocks to increase your score and length.  
@@ -38,18 +39,18 @@ Each time the snake eats a block, it grows longer and the game ends if it hits t
 
 ## Hangman Game
 
-**Description**
+### Description
 
 Hangman is a word‑guessing game where the player guesses a hidden word one letter at a time.
 The game provides a hint like category (fruit, vegetable, etc.) and allows only a limited number of wrong guesses.
 
-**Features**
+### Features
 
 - Category‑based hints for the secret word.  
 - Counts wrong guesses and ends the game when the limit is reached.  
 - Reveals the correct word if the player fails to guess.
 
-**How to Play**
+### How to Play
 
 - Read the hint (for example, “It’s a fruit”).  
 - Enter letters one by one to guess the word.  
