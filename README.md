@@ -1,6 +1,6 @@
 # Games Web App – Snake & Hangman
 
-A small web project containing two classic browser games – **Snake** and **Hangman** – with simple login/signup and a basic homepage.[page:1]
+A small web project containing two classic browser games – **Snake** and **Hangman** – with simple login/signup and a basic homepage.
 
 ---
 
@@ -8,31 +8,31 @@ A small web project containing two classic browser games – **Snake** and **Han
 
 This repository includes:
 
-- Snake Game (grid‑based snake that grows as it eats food).[page:1]  
-- Hangman Game (word guessing with category‑based hints).[page:1]  
-- Simple Login and Signup pages plus a static homepage.[page:1]
+- Snake Game (grid‑based snake that grows as it eats food).
+- Hangman Game (word guessing with category‑based hints).
+- Simple Login and Signup pages plus a static homepage.
 
-The goal is to practice core **HTML, CSS, JavaScript and a bit of PHP** for basic web game logic and UI.[page:2]
+The goal is to practice core **HTML, CSS, JavaScript and a bit of PHP** for basic web game logic and UI.
 
 
 ## Snake Game
 
 **Description**
 
-In the Snake game, the player controls a snake moving on the screen and tries to eat randomly appearing blocks.[page:1]  
-Each time the snake eats a block, it grows longer and the game ends if it hits the wall or its own body.[page:1]
+In the Snake game, the player controls a snake moving on the screen and tries to eat randomly appearing blocks. 
+Each time the snake eats a block, it grows longer and the game ends if it hits the wall or its own body.
 
 **Features**
 
 - Snake grows as it eats food.  
 - Simple keyboard controls (arrow keys).  
-- Game over when the snake collides with the wall or itself.[page:1]
+- Game over when the snake collides with the wall or itself.
 
 **How to Play**
 
 - Use the arrow keys (Up, Down, Left, Right) to move the snake.  
 - Eat the blocks to increase your score and length.  
-- Avoid hitting the boundaries or your own tail.[page:1]
+- Avoid hitting the boundaries or your own tail.
 
 ---
 
@@ -40,27 +40,27 @@ Each time the snake eats a block, it grows longer and the game ends if it hits t
 
 **Description**
 
-Hangman is a word‑guessing game where the player guesses a hidden word one letter at a time.[page:1]  
-The game provides a hint like category (fruit, vegetable, etc.) and allows only a limited number of wrong guesses.[page:1]
+Hangman is a word‑guessing game where the player guesses a hidden word one letter at a time.
+The game provides a hint like category (fruit, vegetable, etc.) and allows only a limited number of wrong guesses.
 
 **Features**
 
 - Category‑based hints for the secret word.  
 - Counts wrong guesses and ends the game when the limit is reached.  
-- Reveals the correct word if the player fails to guess.[page:1]
+- Reveals the correct word if the player fails to guess.
 
 **How to Play**
 
 - Read the hint (for example, “It’s a fruit”).  
 - Enter letters one by one to guess the word.  
-- Try to guess the full word before you run out of allowed wrong guesses.[page:1]
+- Try to guess the full word before you run out of allowed wrong guesses.
 
 ---
 
 ## Project Structure
 
 ```text
-AP-Project/
+Interactive Games Platform/
 ├── Login/        # Login page files
 ├── Signup/       # Signup/registration page files
 ├── homepage/     # Landing / home UI
